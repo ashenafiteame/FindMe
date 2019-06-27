@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/PeripheralTextView"
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:background="#b3f9f8"
+        android:maxLines="30"
+        android:scrollbars="vertical" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ring on"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/moniorRssi"
+            android:layout_alignParentBottom="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="connect"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/connect"
+            android:layout_alignParentBottom="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ring Off"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/stop"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="disconnect"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/disconnect"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
